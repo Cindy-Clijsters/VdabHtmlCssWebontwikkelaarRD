@@ -1,0 +1,73 @@
+/**
+ * CH01 - Resets
+ * CH02 - Typography
+ * CH03 - Page Structure
+ * CH04 - Header & Navigation
+ * CH05 - Content & Media
+ * CH06 - Footer
+ * CH07 - Miscellaneous
+**/
+
+/* CH01 - RESETS **************************************************************/
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+header, main, footer, section, article, nav, div, ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* CH02 - TYPOGRAPHY **********************************************************/
+
+body {
+    font: 1rem Helvetica, Verdana, sans-serif;
+    color: #665950;
+    background-color: #FCFAF8;
+}
+
+a {
+    color: #4C86CF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #058;
+}
+
+h1 {
+    color: #7ea107;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #7ea107;
+}
+
+h3 {
+    color: #52463f;
+    font-size: 1.25rem;
+}
+
+em {
+    color: #9A3098;
+    font-style: normal;
+    font-weight: bold;
+}
+
+code {
+    color: #8B1C00;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+time {
+    font-size: 0.75rem;
+}
