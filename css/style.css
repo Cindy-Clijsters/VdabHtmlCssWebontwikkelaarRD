@@ -44,11 +44,12 @@ a:hover {
 
 h1 {
     color: #7ea107;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
 }
 
 h2 {
     color: #7ea107;
+    font-size: 1.50rem;
 }
 
 h3 {
@@ -71,3 +72,31 @@ code {
 time {
     font-size: 0.75rem;
 }
+
+/* CH03 - Page Structure ******************************************************/
+
+img {
+    display: none;
+}
+
+.wrapper {
+    width: 98%;
+    margin: 0 auto;
+}
+
+/* CH04 - Header & Navigation *************************************************/
+
+#logo a img {
+    display: block;
+}
+
+label {
+    display: none;
+}
+
+/* CH05 - Content & Media *****************************************************/
+
+/* CH06 - Footer **************************************************************/
+
+/* CH07 - Miscellaneous *******************************************************/
+
