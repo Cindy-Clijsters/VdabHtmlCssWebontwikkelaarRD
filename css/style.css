@@ -37,7 +37,7 @@ h1, h2, h3 {
 }
 
 p {
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 h1+h2 {
@@ -189,6 +189,15 @@ img {
     background-size: 0.75rem;
     padding: 0 0 1rem 1.375rem;
 }
+
+#news article {
+    padding-bottom: 1em;
+}
+
+#news article:last-of-type {
+    padding-bottom: 0em;
+}
+
 
 /* CH06 - Footer **************************************************************/
 
