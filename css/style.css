@@ -51,7 +51,7 @@ h3+p{
 /* CH02 - TYPOGRAPHY **********************************************************/
 
 body {
-    font: 1rem Helvetica, Verdana, sans-serif;
+    font: 0.875rem Helvetica, Verdana, sans-serif;
     color: #665950;
     background-color: #FCFAF8;
 }
@@ -200,6 +200,10 @@ img {
 
 
 /* CH06 - Footer **************************************************************/
+
+footer {
+    font-size: 0.75rem;
+}
 
 /* CH07 - Miscellaneous *******************************************************/
 
