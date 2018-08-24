@@ -73,6 +73,14 @@ time {
     font-size: 0.75rem;
 }
 
+.green-btn {
+    background-color: #6F8927;
+    border: solid 1px green;
+    color: inherit;
+    font-weight: bold;
+    padding: 0.25rem 0.50rem;
+}
+
 /* CH03 - Page Structure ******************************************************/
 
 img {
@@ -90,8 +98,21 @@ img {
     display: block;
 }
 
-label {
+#login label {
     display: none;
+}
+
+#login {
+    background-color: #8FB209;
+    color: #FCFAF8;
+    text-align: right;
+    padding: 0.375rem 0;
+}
+
+#login input {
+    margin-bottom: 0.25rem;
+    float: right;
+    clear: both;
 }
 
 /* CH05 - Content & Media *****************************************************/
@@ -100,3 +121,19 @@ label {
 
 /* CH07 - Miscellaneous *******************************************************/
 
+/**
+ * Clear fix hack
+ */
+
+.cf:before, .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
